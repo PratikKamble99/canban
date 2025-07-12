@@ -22,7 +22,7 @@ const Card = ({ card, onEdit, onDelete, columnTitle }) => {
         • {card.tags?.join(", ")} • {card.assignee}
       </div>
       <div className="">
-        <p className="">Sub Tasks</p>
+        {/* <p className="">Sub Tasks</p> */}
         {card.subtasks?.length > 0 && (
           <ul className="mt-2 pl-4 text-sm list-disc text-gray-600">
             {card.subtasks.map((sub, i) => (
