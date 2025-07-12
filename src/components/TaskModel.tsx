@@ -19,6 +19,7 @@ const TaskModal = ({ task, onClose, onSave }) => {
   };
 
   const handleSubmit = () => {
+    if (!form.title) return alert("enter title");
     onSave({
       ...form,
       tags: form.tags.split(",").map((t) => t.trim()),

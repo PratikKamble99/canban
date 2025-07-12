@@ -4,8 +4,8 @@ const initialData = {
       id: "col-1",
       title: "To Do",
       cards: [
-        { id: "card-1", content: "Learn React", status: "todo" },
-        { id: "card-2", content: "Build Kanban Board", status: "todo" },
+        // { id: "card-1", content: "Learn React", status: "todo" },
+        // { id: "card-2", content: "Build Kanban Board", status: "todo" },
       ],
     },
     {
